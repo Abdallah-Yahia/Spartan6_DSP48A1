@@ -6,6 +6,7 @@ Spartan-6 DSP48A1 Module – A high-performance arithmetic and signal processing
 
 ## Tools Used:
 Vivado – For design synthesis and implementation.
+
 Questa – For simulation and functional verification.
 
 
