@@ -11,7 +11,11 @@ Vivado – For design synthesis and implementation.
 Questa – For simulation and functional verification.
 
 
-## Project Summary:
+## Key Achievements:
+1.Structured the design using two sub-modules to improve modularity and organization: MUX_reg – Responsible for registered multiplexing to ensure data synchronization and stability.
+MUX4x1 – A 4-to-1 multiplexer that facilitates flexible data path selection.
+2.Implemented arithmetic operations such as multiplication, addition/subtraction, and cascaded processing.
+3.Optimized data flow and synchronization to enhance overall computational efficiency.
 
 
 
