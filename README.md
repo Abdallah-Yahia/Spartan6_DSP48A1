@@ -2,7 +2,8 @@
 
 Spartan-6 DSP48A1 Module – A high-performance arithmetic and signal processing unit for FPGA applications. It supports multiplication, addition/subtraction, and cascaded operations, with configurable pipeline registers for maximum efficiency.
 
-![image](https://github.com/user-attachments/assets/dbec2878-fcaf-4a6d-9beb-0e1942dde51c)
+![image](https://github.com/user-attachments/assets/69010982-0820-472a-adb1-29d5000048ad)
+
 
 
 
