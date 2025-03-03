@@ -10,7 +10,6 @@ Spartan-6 DSP48A1 Module – A high-performance arithmetic and signal processing
 ## Key Features:
 
 
-## Source: 
-[AMD Documentation](https://docs.amd.com/v/u/~ta5R6V5ywmej~eY5UAEpg)
+## Reference: For more details, feel free to check out the official documentation here:  [AMD Documentation](https://docs.amd.com/v/u/~ta5R6V5ywmej~eY5UAEpg)
 
 
