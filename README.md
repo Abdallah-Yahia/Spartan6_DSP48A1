@@ -2,7 +2,8 @@
 
 Spartan-6 DSP48A1 Module – A high-performance arithmetic and signal processing unit for FPGA applications. It supports multiplication, addition/subtraction, and cascaded operations, with configurable pipeline registers for maximum efficiency.
 
-![Screenshot 2025-03-03 095217](https://github.com/user-attachments/assets/b6770544-7917-4f82-854d-5920f417d84c)
+![image](https://github.com/user-attachments/assets/dbec2878-fcaf-4a6d-9beb-0e1942dde51c)
+
 
 
 ## Tools Used:
@@ -14,7 +15,9 @@ Questa – For simulation and functional verification.
 ## Key Achievements:
 1.Structured the design using two sub-modules to improve modularity and organization: MUX_reg – Responsible for registered multiplexing to ensure data synchronization and stability.
 MUX4x1 – A 4-to-1 multiplexer that facilitates flexible data path selection.
+
 2.Implemented arithmetic operations such as multiplication, addition/subtraction, and cascaded processing.
+
 3.Optimized data flow and synchronization to enhance overall computational efficiency.
 
 
