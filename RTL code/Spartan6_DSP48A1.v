@@ -68,7 +68,7 @@ module Spartan6_DSP48A1 #(
 
     MUX_reg #(.RSTTYPE(RSTTYPE), .SIZE(1), .ENABLE(CARRYINREG)) m8 (.clk(CLK), .rst(RSTCARRYIN), .clk_en(CECARRYIN), .in(carry_in), .out(my_carry));
 
-    assign {carry_out, post_add_sub_out} = (opmode_out[7] == 0) ? (out_mux_x + out_mux_z + my_carry) : (out_mux_x - out_mux_z - my_carry);
+    assign {carry_out, post_add_sub_out} = (opmode_out[7] == 0) ? (out_mux_x + out_mux_z + my_carry) : (out_mux_z - (out_mux_x + my_carry));
 
     MUX_reg #(.RSTTYPE(RSTTYPE), .SIZE(48), .ENABLE(PREG)) m9 (.clk(CLK), .rst(RSTP), .clk_en(CEP), .in(post_add_sub_out), .out(P));
     MUX_reg #(.RSTTYPE(RSTTYPE), .SIZE(1), .ENABLE(CARRYOUTREG)) m10 (.clk(CLK), .rst(RSTCARRYIN), .clk_en(CECARRYIN), .in(carry_out), .out(CARRYOUT));
